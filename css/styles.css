@@ -9,6 +9,46 @@ body {
     margin: 0 auto;
 }
 
+h1, h2, h3 {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+}
+h1 {
+    font-size: 1.4rem;
+}
+h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+h3 {
+    font-size: 1.15rem;
+    margin: 0.5rem 0 0 0;
+}
+p {
+    font-size: 1.2rem;
+}
+li {
+    font-size: 1.10rem;
+    margin-bottom: 0.2rem;
+}
+ul {
+    margin-top: 0rem;
+}
+a {
+    color: #07a;
+}
+.container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+
 .avatar img {
     max-width: 20rem;
 }
